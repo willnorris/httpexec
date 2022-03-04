@@ -12,7 +12,7 @@ For example, run httpexec:
 
     $ httpexec -command "echo hello world" -password secret
 
-A request with the required password receives a 403:
+A request without the required password receives a 403:
 
     $ curl -i http://localhost:8080
     
